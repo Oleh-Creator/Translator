@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin-top: 100px;
+}
+.phoneContainer{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 100px 0;
+}
+.card{
+    box-shadow: 0 0 10px #999;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+.langContainer{
+    display: flex;
+}
+.langContainer img{
+    width: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.lng-buyNow{
+    width: 100px;
+    height: 50px;
+    background: white;
+    border:10 10 10px #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
